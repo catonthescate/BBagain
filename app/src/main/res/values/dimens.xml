@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="room_width">150dp</dimen>
+    <dimen name="room_height">100dp</dimen>
+    <dimen name="avatar_width">30dp</dimen>
+    <dimen name="avatar_height">30dp</dimen>
+    <dimen name="margin_room">3dp</dimen>
+</resources>

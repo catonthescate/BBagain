@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:background="@drawable/room_pool"
+        android:orientation="horizontal"
+        android:id="@+id/scene_room"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/person"
+            android:layout_weight="1"
+            android:text="@string/bt_choose_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_gravity="top|end"
+            android:layout_weight="1"
+            android:text="@string/bt_add"
+            android:id="@+id/clear_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_gravity="top|center"
+            android:text="@string/bt_choose_room"
+            android:layout_weight="1"
+            android:id="@+id/room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:background="@drawable/room_pool"
+                android:layout_width="@dimen/room_width"
+                android:layout_height="@dimen/room_height"
+                android:layout_margin="@dimen/margin_room">
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_gravity="top"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/avatar_height">
+                    <ImageView
+                        android:src="@drawable/img_avatar_mother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_old_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_yanng_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_brother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                </LinearLayout>
+            </FrameLayout>
+
+
+
+            <FrameLayout
+                android:background="@drawable/room_pool"
+                android:layout_width="@dimen/room_width"
+                android:layout_height="@dimen/room_height"
+                android:layout_margin="@dimen/margin_room">
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_gravity="top"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/avatar_height">
+                    <ImageView
+                        android:src="@drawable/img_avatar_mother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_old_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_yanng_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_brother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:background="@drawable/room_pool"
+                android:layout_width="@dimen/room_width"
+                android:layout_height="@dimen/room_height"
+                android:layout_margin="@dimen/margin_room">
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_gravity="top"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/avatar_height">
+                    <ImageView
+                        android:src="@drawable/img_avatar_mother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_old_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_yanng_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_brother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:background="@drawable/room_pool"
+                android:layout_width="@dimen/room_width"
+                android:layout_height="@dimen/room_height"
+                android:layout_margin="@dimen/margin_room">
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_gravity="top"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/avatar_height">
+                    <ImageView
+                        android:src="@drawable/img_avatar_mother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_old_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_yanng_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_brother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:background="@drawable/room_pool"
+                android:layout_width="@dimen/room_width"
+                android:layout_height="@dimen/room_height"
+                android:layout_margin="@dimen/margin_room">
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_gravity="top"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/avatar_height">
+                    <ImageView
+                        android:src="@drawable/img_avatar_mother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_old_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_yanng_sis"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                    <ImageView
+                        android:src="@drawable/img_avatar_brother"
+                        android:layout_width="@dimen/avatar_width"
+                        android:layout_height="@dimen/avatar_height" />
+                </LinearLayout>
+            </FrameLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>
